@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0% 10%;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    width: 27%;
+    justify-content: space-between;
+    font-family: sans-serif
+}
+
+.mauro{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.mauro:visited{
+    color: black;
+}
+
+.messi{
+    width: 400px;
+    border-radius: 80px;
+}
+
+#hola{
+    display: flex;
+    justify-content: space-around;
+    padding: 19% 0% 15% 0;
+    border-bottom: double;
+
+}
+
+.titulo{
+    place-self: center;
+    text-align: -webkit-center;
+    font-family: sans-serif;
+    font-size: 55px;
+}
+.colorName{
+    color: deepskyblue;
+}
+.fotoMauro{
+    width: 45%;
+    border-radius: 20px;
+    }
+.fotoMauro:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;}
+
+.gridSobremi{
+    display: grid;
+     grid-template-rows: auto auto;
+     justify-items: center;
+     grid-row-gap: 60px;
+     padding: 9% 0% 10% 0;
+     border-bottom: double;
+}
+.griddegrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+}
+
+h2{
+    font-family: 'Martian Mono', monospace;
+    color: steelblue;
+    font-size: 40px;
+    text-align: center;
+}
+
+.parrafo{
+    font-family: system-ui;
+    text-align: center;
+    padding: 2% 24% 5% 5%;
+    font-size: 22px;
+}
+.header{
+    font-size: larger;
+    border-bottom: inset;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+   
+}
+#portfolio{
+    text-align: center;
+    padding-top: 8%;
+}
+h3{
+    font-family: 'Martian Mono', monospace;
+    color: #2c628f;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 2;
+    padding-top: 4%;
+}
+
+.articulo1{
+    display: grid;
+    grid-template-columns: auto 40%;
+    padding-top: 8%;
+}
+
+.articulo2{
+    display: grid;
+    grid-template-columns: 40% auto ;
+    padding-top: 12%;
+
+}
+.contenidoCapacitaciones{
+    text-align: center;
+    font-family: system-ui;
+    padding: 3% 9% 0% 2%;
+    
+}
+.imgjs{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.imghtml{
+    border-radius: 20px;
+    width: 100%;
+    
+}
+.imgrjs{
+    border-radius: 20px;
+    width: 100%;
+}
+h4{
+    font-size: xx-large;
+}
+h6{
+    font-size: medium;
+}
+.fin{
+    font:icon
+}
+#contacto{
+    text-align: center;
+    padding-top: 8%
+}
+.navContacto{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+}
+.bx{
+    transform: scale(2);
+}
+li{
+    padding: 0 3%;
+}
+.capacitaciones{
+    padding: 4% 0% 10% 0;
+    border-bottom: double
+}
+.bxl-github {
+  color: black;
+}
+.bxl-linkedin{
+    color: black;
+}
+.bxl-whatsapp{
+    color: rgb(5, 245, 93);
+}
+.bx-mail-send{
+    color: rgb(250, 4, 4);
+}
+.linkRepo{
+    
+    color: black;
+    font-weight: 500;
+}
+.contenidoCapacitaciones2{
+    padding-left: 14%;
+}
+
+.art3{
+    padding-top: 12%;
+}
+#linkedin{
+  color:#1c66c2;
+  }
+  
+#github{
+    color:#000000;
+  }
+  
+  canvas {
+    width:18vw;
+    height:18vh;
+  }
+  
+
+ 
+  .logo {
+    font-size: 1em;
+    padding: 0 0.3em;
+    display: block;
+    float: left;
+  }
+
+  
+  
+ 
+  
+  
+
+
+
+
+
+
+ 
+ 
