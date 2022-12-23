@@ -36,5 +36,23 @@ renderLoop();
        
 
 
+      // function copyContent() {
+      //   // Obtén el elemento con id "myElement"
+      //   var element = document.getElementById("call");
+      //   // console.log("hola");
+      //   // Selecciona todo el contenido del elemento
+      //   element.select();
+    
+      //   // Copia el contenido seleccionado al portapapeles
+      //   document.execCommand("copy");
+        
+      // }
+      const copyButton = document.getElementById('copy-button');
+
+copyButton.addEventListener('click', () => {
+  navigator.clipboard.writeText(copyButton.value);
+});
+
+
 
    

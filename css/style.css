@@ -224,7 +224,14 @@ li{
     float: left;
   }
 
-  
+#copy-button{
+    border: none;
+    background: none;
+}
+#copy-button:hover{
+    cursor: pointer;
+}
+
   
  
   
