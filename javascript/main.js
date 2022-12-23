@@ -4,6 +4,7 @@ var twelm = document.getElementById("mail");
 var gielm = document.getElementById("github");
 var lielm = document.getElementById("linkedin");
 var stelm = document.getElementById("whatsapp");
+var phone = document.getElementById("phone");
 
 var opac = 0.1;
 var opacup=true;
@@ -25,7 +26,7 @@ renderLoop();
         gielm.style.opacity = opac;
         lielm.style.opacity = opac;
         stelm.style.opacity = opac;
-     
+        phone.style.opacity = opac;     
           
         window.requestAnimationFrame(renderLoop); 
         },300);
