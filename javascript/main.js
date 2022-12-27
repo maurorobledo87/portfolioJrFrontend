@@ -1,3 +1,6 @@
+
+
+
 // var enelm = document.getElementById("codepen");
 // var faelm = document.getElementById("facebook");
 var twelm = document.getElementById("mail");
@@ -55,4 +58,17 @@ copyButton.addEventListener('click', () => {
 
 
 
-   
+
+document.getElementById("call").addEventListener("click", function() {
+ 
+  Toastify({
+    text: "Copiado",
+    duration: 1000,
+    // close: true,
+    gravity: "bottom", // `top` or `bottom`
+    position: 'center', // `left`, `center` or `right`
+    backgroundColor: "black",
+    
+  }).showToast();
+});
+

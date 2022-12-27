@@ -8,6 +8,7 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/toastify-js/src/toastify.css">
     </head>
 <body >
     <header class="header">
@@ -24,7 +25,7 @@
     </header>
     <div  id="hola">
          <h1 class="titulo">¡Hola! Soy <br> <strong class="colorName"> Mauro Robledo</strong>, <br> Jr. Frontend Dev </h1>
-        <img class="messi" src="./assets/messi.jpeg" alt="messi">
+        <img class="messi" src="./assets/IMG_1775.jpg" alt="messi">
     </div>
         <div class="scroll-element js-scroll gridSobremi" id="sobreMi">
             
@@ -98,16 +99,18 @@
     <footer>
         <h2 id="contacto">Contacto</h2>
         <nav>
+            <!-- <div id="copyright"></div> -->
             <ul class="navContacto">
-                <li id="call" class="telefono" ><button id="copy-button" value="+34631899017"><i id="phone" class='bx bx-phone-call'></i></button></li>
+                <li id="call" class="telefono" ><a title="Copiar +34631899017"><button id="copy-button" value="+34631899017"><i id="phone" class='bx bx-phone-call'></i></button></a></li>
                 <li><a target="_blank" href="https://www.linkedin.com/in/mauro-robledo-250911239/"><i id="linkedin" class="bx bxl-linkedin"></i></a></li>
                 <li><a target="_blank" href="https://wa.me/34631899017"><i id="whatsapp" class="bx bxl-whatsapp"></i></a></li>
                 <li><a target="_blank" href="mailto:maurosrobledo@gmail.com"><i id="mail" class='bx bx-mail-send'></i></a></li>
                 <li><a target="_blank" href="https://github.com/maurorobledo87?tab=repositories"><i id="github" class="bx bxl-github"></i></a></li>
-              
-            </ul>S
+            </ul>
         </nav>
     </footer>
 </body>
+
 <script type="text/javascript"  src="./javascript/main.js"></script>
+<script src="node_modules/toastify-js/src/toastify.js"></script>
 </html>
